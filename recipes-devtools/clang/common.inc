@@ -33,6 +33,7 @@ SRC_URI = "\
     file://0023-fix-path-to-libffi.patch \
     file://0024-clang-driver-Add-dyld-prefix-when-checking-sysroot-f.patch \
     file://0025-libcxx-Define-__NR_futex-to-be-__NR_futex_time64-on-.patch \
+    file://fix-clang-driver-gcc-install-path-on-openembedded.patch \
 "
 
 # Fallback to no-PIE if not set
